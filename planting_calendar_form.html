@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planting Calendar Form</title>
+</head>
+<body>
+    <h1>Planting Calendar Form</h1>
+    <form action="/planting_calendar" method="post">
+        <!-- Add form fields for location, crop, start date -->
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+        <label for="crop">Crop:</label>
+        <input type="text" id="crop" name="crop" required><br><br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+        <button type="submit">Generate Calendar</button>
+    </form>
+</body>
+</html>
